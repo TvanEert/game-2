@@ -1,0 +1,58 @@
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #a8ded4;
+	margin: 0 auto;
+	text-align: center;
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1d685a;
+  border-radius: 3px;
+  box-shadow: 0 9px #999;
+  margin: 10px;
+}
+
+button:hover {
+	background-color: #154f44
+}
+
+button:active {
+  background-color: #154f44;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#game-container{
+  margin: 0 auto;
+  max-width: 800px; 
+}
+#numberlinks{
+  position: relative;
+  top: -97px;
+  left: -440px;
+}
+#numberrechts{
+  position: relative;
+  top: -97px;
+  left: -255px;
+}
+#nummerbord1{
+  position: relative;
+  top: 15px;
+  margin: 5px;
+}
+#nummerbord2{
+  position: relative;
+  top: 15px;
+  margin: 5px;
+}
+#key{
+  position: relative;
+  bottom: 40px;
+  right: 147px;
+}
